@@ -1,0 +1,20 @@
+# Local-only interview records, raw materials and scratch work
+/.portfolio/
+/private/
+/drafts/
+/work/
+/tmp/
+
+# Never stage the previous author's local-only contact image
+/assets/img/qrcode.png
+
+# Local settings, credentials and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
